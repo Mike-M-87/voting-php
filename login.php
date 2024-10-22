@@ -3,7 +3,6 @@
 ini_set('display_errors', 1);
 
 
-
 require "dbconnect.php";
 
 require("my_functions.php");

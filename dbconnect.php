@@ -8,8 +8,9 @@ if (!isset($_SESSION)) {
 //connect to database
 $server = "localhost";
 $user = "root";
-$pass = ""; 
+$pass = "mysqlroot"; 
 $database = "voting";
+
 
 $dbconnect = mysqli_connect($server, $user, $pass, $database);
 // $conn = new mysqli($servername,$username,$dbpassword);
